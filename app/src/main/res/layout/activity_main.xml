@@ -10,7 +10,7 @@
         android:layout_weight="1"
         android:background="@color/Rojo"
         android:layout_marginBottom="@dimen/margenn"
-        android:layout_marginTop="@dimen/margenn">
+        android:layout_marginTop="@dimen/margenn"/>
     <Button
         android:id="@+id/verdeh"
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
         android:layout_weight="1"
         android:background="@color/green"
         android:layout_marginBottom="@dimen/margenn"
-        android:layout_marginTop="@dimen/margenn">
+        android:layout_marginTop="@dimen/margenn"/>
     <Button
         android:id="@+id/azulh"
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:layout_weight="1"
         android:background="@color/azul"
         android:layout_marginBottom="@dimen/margenn"
-        android:layout_marginTop="@dimen/margenn">
+        android:layout_marginTop="@dimen/margenn"/>
 
 
 </LinearLayout>

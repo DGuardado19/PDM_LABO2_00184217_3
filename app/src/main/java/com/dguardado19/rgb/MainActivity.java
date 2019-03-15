@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         bt1 = findViewById(R.id.rojoh);
         bt2 = findViewById(R.id.verdeh);
-        bt3 = findViewById(R.id.azulh;
+        bt3 = findViewById(R.id.azulh);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
@@ -29,7 +29,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int viewId = v.getId();
         Log.i("id",viewId +"");
         switch (viewId){
-            case
+            case R.id.rojoh:
+                bt1.setBackgroundColor(getResources().getColor(R.color.azul));
+                break;
+
         }
 
 
