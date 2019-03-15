@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt2.setOnClickListener(this);
         bt3.setOnClickListener(this);
     }
-ss
+
     @Override
     public void onClick(View v) {
         int viewId = v.getId();
