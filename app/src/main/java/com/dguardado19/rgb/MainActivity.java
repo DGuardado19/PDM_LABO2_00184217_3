@@ -14,7 +14,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button bt1, bt2, bt3;
-    private LinearLayout mLinearLayout;
     private ArrayList<Drawable> rojos = new ArrayList<>();
     private ArrayList<Drawable> verdes = new ArrayList<>();
     private ArrayList<Drawable> azules = new ArrayList<>();
